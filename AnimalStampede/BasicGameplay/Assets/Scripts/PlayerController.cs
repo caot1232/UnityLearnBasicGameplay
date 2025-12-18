@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            //Launch a projectile from the player
             Instantiate(projecttilePrefab, transform.position, projecttilePrefab.transform.rotation);
         }
 

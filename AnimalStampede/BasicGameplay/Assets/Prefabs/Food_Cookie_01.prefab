@@ -11,8 +11,11 @@ GameObject:
   - component: {fileID: 2512124699146332505}
   - component: {fileID: 722110964352287033}
   - component: {fileID: 6510554673546500104}
+  - component: {fileID: 5159334218443553995}
   - component: {fileID: 1043581992423063412}
   - component: {fileID: 2185612144142308498}
+  - component: {fileID: -7280008918997805539}
+  - component: {fileID: 2840212388650315838}
   m_Layer: 0
   m_Name: Food_Cookie_01
   m_TagString: Untagged
@@ -88,6 +91,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5159334218443553995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825470150270412726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc309ee1b0bd66408dba92ab3f4c745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1043581992423063412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,3 +128,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b46918655b5139d4baec7bc2dad4cb7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-7280008918997805539
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825470150270412726}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.52475095, y: 0.06719126, z: 0.52475107}
+  m_Center: {x: 0, y: -0.0000000018626451, z: -0.000000074505806}
+--- !u!54 &2840212388650315838
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825470150270412726}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
